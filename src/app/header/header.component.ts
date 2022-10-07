@@ -7,17 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+
+  }
 
   ngOnInit(): void {
+
   }
 
-  makeMeActive(id: string) {
-    document.getElementById("homemenu").classList.remove("active");
-    document.getElementById("aboutmenu").classList.remove("active");
-    document.getElementById("projectmenu").classList.remove("active");
-    document.getElementById("contactmenu").classList.remove("active");
-    document.getElementById(id).classList.add("active");
-  }
 
 }

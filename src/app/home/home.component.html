@@ -1,4 +1,4 @@
-<div style="height:1000px ;">
+<div>
 
     <!-- Profile -->
     <div class="card mb-3">
@@ -14,21 +14,40 @@
                         <br>
 
                         <small class="text-muted">Jodhpur, Rajasthan, India</small>&nbsp; <small><i
-                                style="font-size:3px ;vertical-align: middle;" class="fas fa-circle text-muted"></i>&nbsp; <a
-                                routerLink="/contact">Contact Info</a></small>
+                                style="font-size:3px ;vertical-align: middle;"
+                                class="fas fa-circle text-muted"></i>&nbsp; <a routerLink="/contact">Contact
+                                Info</a></small>
                         <br><br>
-
+                        <!-- Linkedin -->
+                        <a class="btn text-white btn-lg btn-floating buttonMargin" style="background-color: #0082ca;"
+                            href="{{_commonSvc.linkedinURL}}" role="button">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <!-- Github -->
+                        <a class="btn text-white btn-lg btn-floating buttonMargin" style="background-color: #333333;"
+                            href="{{_commonSvc.githubURL}}" role="button">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <!-- Google -->
+                        <a class="btn text-white btn-lg btn-floating buttonMargin" style="background-color: #dd4b39;"
+                            href="{{_commonSvc.googleURL}}" role="button">
+                            <i class="fab fa-google"></i>
+                        </a>
+                        <!-- Whatsapp -->
+                        <a class="btn text-white btn-lg btn-floating buttonMargin" style="background-color: #25d366;" href="{{_commonSvc.whatsappURL}}" role="button">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
                     </p>
                     <p class="card-text">
                         <small class="text-muted">Last updated: 07 Octuber 2022</small>
                     </p>
 
-                    <div class="text-end">
+                    <div class="text-end buttonPadding">
                         <a href="./assets/resume/MahipalChoudharyResume.pdf" target="_blank"
-                            class="btn btn-outline-success btn-rounded text-success"
+                            class="btn btn-outline-success btn-rounded text-success buttonMargin"
                             data-mdb-ripple-color="dark">Download
-                            Resume</a>&nbsp;
-                        <a class="btn btn-outline-primary btn-rounded text-primary" routerLink="/contact"
+                            Resume</a>
+                        <a class="btn btn-outline-primary btn-rounded text-primary buttonMargin" routerLink="/contact"
                             data-mdb-ripple-color="dark">Contact</a>
 
                     </div>
@@ -79,11 +98,57 @@
     <div class="card">
         <div class="card-body">
             <h5 class="card-title">Education</h5>
-            <p class="card-text">
-                in progress...
-            </p>
+            <!-- MCA -->
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-2">
+                        <img src="./assets/images/rtu.jpg" alt="rtu.jpg" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h5 class="card-title">Master of Computer Application (MCA) with 70%</h5>
+                            <p class="card-text">From Rajasthan Technical University, Kota
+                                <br>July 2016 - July 2018
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- MCA -->
+
+            <!-- BCA -->
+            <div class="card mb-3">
+                <div class="row g-0">
+                    <div class="col-md-2">
+                        <img src="./assets/images/mcnu.jpg" alt="mcnu.jpg" class="img-fluid rounded-start" />
+                    </div>
+                    <div class="col-md-9">
+                        <div class="card-body">
+                            <h5 class="card-title">Bachelor of Computer Application (BCA) with 64.91%</h5>
+                            <p class="card-text">From Makhanlal Chaturvedi National University of Journalism and
+                                Communication, Kota
+                                <br>July 2012 - July 2015
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- BCA -->
         </div>
     </div>
     <!-- Education -->
 
+    <br>
+
+    <!-- Know more -->
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Know more</h5>
+            <div class="text-center">
+                <a class="btn btn-outline-primary btn-rounded text-primary" routerLink="/about"
+                    data-mdb-ripple-color="dark">View full Details</a>
+            </div>
+        </div>
+    </div>
+    <!-- Know more -->
 </div>

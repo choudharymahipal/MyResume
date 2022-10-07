@@ -16,6 +16,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AboutComponent } from './about/about.component';
 import { ProjectComponent } from './project/project.component';
 import { ContactComponent } from './contact/contact.component';
+import { CommonService } from './Services/common.service';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,7 @@ import { ContactComponent } from './contact/contact.component';
     FormsModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [CommonService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
