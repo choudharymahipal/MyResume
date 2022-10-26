@@ -11,7 +11,7 @@ export class CommonService {
   public linkedinURL: string = "https://www.linkedin.com/in/mahipal-singh-choudhary-b0290494/";
   public githubURL: string = "https://github.com/choudharymahipal";
   public whatsappURL: string = "//api.whatsapp.com/send?phone=917568787918&text=Hello Mahipal, I have just viewed your profile.";
-
+  public email: string = "mschoudhary81@gmail.com";
   constructor() {
 
   }
