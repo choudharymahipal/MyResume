@@ -22972,5 +22972,26 @@ hr.divider-vertical-blurry{background-image:linear-gradient(180deg,transparent,#
 .bg-poppy-red {
   background-color: #ef5350 !important;
 }
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+.CompanyName {
+  font-size: 17px;
+  padding: 12px;
+  font-weight: 500;
+}
+.CompanyPost {
+  font-size: 15px;
+  padding: 10px;
+}
+.CompanyTime {
+  font-size: 13px;
+}
 
 /*# sourceMappingURL=styles.css.map*/
